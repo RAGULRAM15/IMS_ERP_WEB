@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.app {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* background-color: #0a0b11; */
+  /* background-image: url("http://lorempixel.com/output/people-q-c-100-100-1.jpg"); */
+  background-image: url(/src/image/Beige\ Brown\ Playful\ Fashion\ Kids\ Ware\ Discount\ Facebook\ Cover.png);
+ 
+}
+.field-icon {
+   float: right; 
+  margin-left: 190px;
+  margin-top: -35px;
+  position: relative;
+  z-index: 2;
+}
+/* .app_dash {
+  font-family: sans-serif;
+  display: flex;
+  align-items:center;
+  justify-content:start;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #282c34;
+} */
+#spinner {
+  width: 32px;
+  height: 32px;
+  border: 8px solid;
+  border-color: #3d5af1 transparent #3d5af1 transparent;
+  border-radius: 50%;
+  animation: spin-anim 1.2s linear infinite;
+  color:#fff;
+}
+@keyframes spin-anim {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+._input {
+  max-width: 250px;
+        margin: 0;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #999;
+        width: 220px;
+        font-size: 18px;
+        color: #2191ad;
+        background-color: #faf7f7;
+       
+}
+#company,#FYear{ height: 25px;
+  /*border: 1px solid rgba(0, 0, 0, 0.2);*/
+  margin: 0;
+  padding: 5px;
+  border: 1px solid #999;
+  width: 220px;
+  height: inherit;
+  font-size: 18px;
+  color: #2191ad;
+  background-color: #faf7f7;
+  border-radius: 5px;}
+#btnsubmit {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  background: #01d28e;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+}
+#nextsubmit{
+  background: #fff  ;
+  border: 1px solid #fff;
+}
+
+#btnsubmit:hover {
+  background: #6cf0c2;
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* .dash-form {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.input_container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
